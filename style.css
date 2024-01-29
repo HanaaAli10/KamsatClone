@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+    width: 100%;
+    height: 60px;
+    color: white;
+    position: fixed;
+    z-index: 5;
+}
+
+/* beginning of left nav  */
+.nav-left {
+    display: flex;
+}
+
+.nav-left i {
+    display: flex;
+    margin: 20px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+}
+
+
+
+.nav-left .login {
+    display: flex;
+    position: relative;
+
+}
+
+.nav-left .login input {
+    background-color: #444444;
+    width: 80px;
+    padding: 10px;
+    margin: 9px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Noto Kufi Arabic", Helvetica, Arial, sans-serif;
+
+}
+
+
+.nav-left .login i {
+    position: absolute;
+    top: 5px;
+    font-size: 13px;
+}
+
+.account {
+    display: flex;
+    position: relative;
+}
+
+.nav-left .account input {
+    background-color: #444444;
+    color: white;
+    width: 120px;
+    padding: 10px;
+    margin: 9px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+
+.nav-left .account i {
+    position: absolute;
+    top: 5px;
+    font-size: 13px;
+}
+
+/* end of left nav  */
+
+/* beginning of right nav  */
+.nav-right {
+    display: flex;
+}
+
+.nav-right i {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    margin-right: 80px;
+}
+
+.nav-right .home a img {
+    width: 140px;
+    margin: 10px;
+}
+
+.nav-right .Categories {
+    display: flex;
+    position: relative;
+}
+
+.nav-right .Categories input {
+    border-style: none;
+    width: 100px;
+    text-align: left;
+    background-color: #444444;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin: 9px;
+}
+
+.nav-right .Categories i {
+    position: absolute;
+    left: 70px;
+    font-size: 15px;
+    top: 4px;
+}
+
+/* /* end of right nav  */
+
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(images/background.jpg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.header h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    color: #222222;
+}
+
+.header p {
+    font-size: 25px;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    color: #222222;
+
+}
+
+.design {
+    position: relative;
+}
+
+.header .design .try {
+
+    width: 700px;
+    height: 65px;
+    border-color: rgb(218, 218, 218);
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    z-index: 3;
+    margin: 40px;
+}
+
+
+
+.design .search {
+    color: white;
+    background-color: #52b035;
+    font-size: 20px;
+    padding: 15px;
+    position: absolute;
+    top: 47px;
+    left: 50px;
+    z-index: 4;
+    border: none;
+}
+
+.Services {
+    color: #52b035;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.creativity {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.creativity div {
+    margin-bottom: 25px;
+    position: relative;
+    width: 320px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creativity .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.creativity p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/* beginning the register */
+
+.register {
+    background-color: #444444;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.register h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+
+
+}
+
+.register input {
+    justify-content: center;
+    align-items: center;
+    background-color: #52b035;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    position: absolute;
+    right: 700px;
+
+
+
+
+}
+
+/* beginning of Business-services */
+.Business-services {
+    height: 500px;
+
+}
+
+.Business-services .BS {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+.Business-services h3 {
+    margin-right: 90px;
+    font-weight: 400;
+}
+
+.Business-services input {
+    margin-left: 90px;
+    width: 100px;
+    height: 40px;
+    color: #52b035;
+    background-color: white;
+    border: 2px solid#52b035;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.Business-services .img-BS {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
+    line-height: 25px;
+    
+
+}
+.Business-services .img-BS div{
+    margin-bottom: 25px;
+    width: 320px;
+    height: 100%; 
+   
+}
+.Business-services .study{
+    position: relative;
+}
+
+.Business-services .study .per{
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    top: 150px;
+    right: 270px;
+}
+.Business-services .editing{
+    position: relative;
+}
+.Business-services .editing .edi{
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    top: 150px;
+    right: 270px;
+}
+.Business-services .Law{
+    position: relative;
+}
+.Business-services .Law .law{
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    top: 150px;
+    right: 270px;
+}
+.Business-services .pillars{
+    position: relative;
+}
+.Business-services .pillars .pil{
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    top: 150px;
+    right: 270px;
+}
+
+.Business-services .img-BS h4{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(99, 99, 99);
+    
+}
+.Business-services .img-BS .money{
+    color: rgba(0, 0, 0, 0.878);
+    font-weight: bold;
+}
+.Business-services .img-BS p{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
+.Business-services .img-BS i{
+    color: rgb(250, 151, 71);
+}
+
+/* end of Business-services */
+
+
+
+
+
+
+
+
+
+/* beginning of about khamsat */
+
+.about-kh {
+    display: flex;
+    height: 300px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.about-kh h2 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.about-kh p {
+    font-weight: 350;
+    font-size: 15px;
+}
+
+.about-kh .web-kh {
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.about-kh .Blog-kh {
+    margin-right: 30px;
+    margin-left: 80px;
+}
+
+.about-kh .Community {
+    margin-left: 140px;
+}
+
+.app {
+    display: flex;
+
+    margin-bottom: 40px;
+
+}
+
+.about-kh .face {
+    color: white;
+    background-color: #3b5998;
+    text-align: center;
+    font-size: 20px;
+    width: 35px;
+    margin-left: 15px;
+}
+
+.about-kh .Twitter {
+    color: white;
+    background-color: #55acee;
+    text-align: center;
+    font-size: 20px;
+    width: 35px;
+}
+
+.follow-kh .pay i {
+    font-size: 35px;
+    color: #737373;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* beginning of footer */
+footer .f-bar {
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    height: 70px;
+
+}
+
+.f-bar a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    color: rgba(0, 0, 0, 0.653);
+    font-weight: 400;
+}
+
+.f-bar .use {
+    margin-right: 100px;
+}
+
+.hsoub {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hsoub img {
+    width: 150px;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.foot div {
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+
+.foot div h2 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.foot div p {
+    font-size: 11px;
+    color: gray;
+
+}
+
+.foot .me {
+    margin-right: 300px;
+}
+
+.foot .hasoub {
+    margin-right: 300px;
+}
+
+.foot .zaytoon {
+    margin-left: 200px;
+}
+
+
+/* end od footer */
